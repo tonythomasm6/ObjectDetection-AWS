@@ -1,6 +1,6 @@
 # ObjectDetection-AWS
 Program to detect objects in an uploaded image. Server side using Python flask and client side using spring rest template
-
+ 
 Demo
 ----
 ![image](https://user-images.githubusercontent.com/68453981/136864906-74207284-0dd6-4773-a14d-6d3229a10f37.png)
