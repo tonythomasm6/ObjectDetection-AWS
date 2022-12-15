@@ -30,3 +30,9 @@ Demo: Upload image window
 Demo: Detected Images
 ---
 ![image](https://user-images.githubusercontent.com/68453981/136864807-e13ff494-9463-40c0-8b88-257c2502f097.png)
+
+To run the instance
+-------------------
+1. To list all existing images: docker image ls
+2. To containerise the client docker image:: <b>docker run -dp 5500:8080 objectdetection-client</b>
+3. To cintainerise the server docker image:: <b>docker run -dp 5000:5000 tonytm1234/objectdetect-server</b>
