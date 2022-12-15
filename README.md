@@ -35,4 +35,8 @@ To run the instance
 -------------------
 1. To list all existing images: docker image ls
 2. To containerise the client docker image:: <b>docker run -dp 5500:8080 objectdetection-client</b>
+   - 5500 : External port to run the application at. 8080 is port in which the client spring boot application runs.
+   - If image doesnot exist then to build image, go to folder where client docker file is, then run docker built -t <image-name-to-create> .
 3. To cintainerise the server docker image:: <b>docker run -dp 5000:5000 tonytm1234/objectdetect-server</b>
+   - 5000 is port which spring boot client application points to. Second 5000 is the port in which the python client application runs.
+   - If image doesnot exist then to build image, go to folder where client docker file is, then run docker built -t <image-name-to-create> .
